@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Family Adventure - AllRoads</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#2D4B3F", // Deep Forest Green
+                        accent: "#E89F4B", // Warm Sun/Mountain Ochre
+                        "background-light": "#F9FAFB",
+                        "background-dark": "#111827",
+                        "card-light": "#FFFFFF",
+                        "card-dark": "#1F2937",
+                    },
+                    fontFamily: {
+                        display: ["Outfit", "sans-serif"],
+                        body: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "1rem",
+                        "xl": "1.5rem",
+                        "2xl": "2.5rem",
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-display { font-family: 'Outfit', sans-serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-300">
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
+<div class="max-w-md mx-auto px-6 h-16 flex items-center justify-between">
+<div class="text-xl font-bold tracking-tight text-primary dark:text-white uppercase">AllRoads</div>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+<span class="material-icons-outlined text-gray-600 dark:text-gray-300">shopping_bag</span>
+</button>
+<button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+<span class="material-icons-outlined text-gray-600 dark:text-gray-300">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-md mx-auto pt-16 pb-20">
+<section class="relative h-[85vh] overflow-hidden flex flex-col justify-end p-8 text-white">
+<img alt="Children playing by a mountain stream in Ireland" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKxBn3TyCaNRflyUSmAKWquW3SWBIEkrsgICsGMeE-7iZl3z_qZXDyZYjQAoShTniLT1ZKDlUe-uTbyv-q8MlUv9Z4XHg0G9IqF0yVBEcZ7gZ3sPc2ulfu1v6jbC-g2htrgqTPFrLvuiw14VNM-VVEZ9uE6CbNHSJGY4QdAsnH2txqNaU9_0pOTwIqTnfUwnP3v8ZjQAZzp5xU1JScN5i7YmhdBcFZ0Pd27jTNlhvduiwewaOeqhpXc_31HT2T4RsENZOak4hYLi7x"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+<div class="relative z-10 space-y-4">
+<span class="inline-block px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-medium uppercase tracking-widest">Wicklow, Ireland</span>
+<h1 class="text-5xl font-bold leading-[1.1]">Explore Together</h1>
+<p class="text-lg text-white/90 max-w-[280px]">Durable, stylish apparel built for family adventures in the wild.</p>
+<div class="pt-4 flex gap-3">
+<button class="bg-white text-primary px-8 py-4 rounded-full font-bold text-sm transition-transform active:scale-95 shadow-xl">Shop Family Range</button>
+</div>
+</div>
+</section>
+<section class="py-12 px-6">
+<div class="flex items-center justify-between mb-6">
+<h2 class="text-2xl font-bold text-primary dark:text-white">Curated for Families</h2>
+<button class="text-primary dark:text-accent font-semibold text-sm">View All</button>
+</div>
+<div class="flex overflow-x-auto gap-4 no-scrollbar pb-4 snap-x">
+<div class="flex-none w-64 snap-start">
+<div class="aspect-[4/5] bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden mb-3 relative group">
+<img alt="Kids Adventure Jacket" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMR-vopZQ32uyFo-BwMlekfSV6U3mA2Qc9lx9B-p9GZ2-nGm5ngw9HQLRZ8h9wBxqeJ4OI9wgQTka6k7czC-k85xOiY_SDjFrjvhpq1lkOFAZ0bYS1ww4-8jPSb80u6aTW9poDE1ZSiGryCBGhcUIWRR9KOGeG8eZinV16_wFBI31032wZCewXjSO0_rpxJ_x59H0p3vyk4ZdcDz8n2_2-IYCK-maGEQJo9bYdR7lrJJ32wPy9RqpbsDb9ZjBSt76862NHyQUAdDCI"/>
+<button class="absolute top-3 right-3 p-2 bg-white/90 dark:bg-gray-900/90 rounded-full shadow-sm">
+<span class="material-icons-outlined text-sm">favorite_border</span>
+</button>
+</div>
+<h3 class="font-bold text-gray-800 dark:text-white">Junior Ridge Shell</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Kids • Waterproof</p>
+<p class="mt-1 font-bold text-primary dark:text-accent">€85.00</p>
+</div>
+<div class="flex-none w-64 snap-start">
+<div class="aspect-[4/5] bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden mb-3 relative group">
+<img alt="Family Outing Set" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEEU_PHGTFH7hu87IYDrO8_jYcZfwzJfa6iO7wIObfeRy4w1iu0TxO4Fnc6XbBLqtsuP67ytTHQZTpjJ8Y5Hg6HvBwaqJZm2QF83tmzqCrf6bGu8BtYV3_YHbB3v_jFUkqH20Irb_lpt6wXg7ZXNEkFVc6scVz-Yos1K_fpTQNvGRN5bhcWhMkHc78oeFS_hEnkoJHmlb6AbQqAdfzlS-dQTWkCziSdGuzX57rf3ISTfxB8brs8kFcQ-_OIsLDYt69QVYTPlJbPWMo"/>
+<button class="absolute top-3 right-3 p-2 bg-white/90 dark:bg-gray-900/90 rounded-full shadow-sm">
+<span class="material-icons-outlined text-sm">favorite_border</span>
+</button>
+</div>
+<h3 class="font-bold text-gray-800 dark:text-white">Peak Explorer Parka</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Adults • Insulation</p>
+<p class="mt-1 font-bold text-primary dark:text-accent">€145.00</p>
+</div>
+<div class="flex-none w-64 snap-start">
+<div class="aspect-[4/5] bg-gray-100 dark:bg-gray-800 rounded-2xl overflow-hidden mb-3 relative group">
+<img alt="Toddler Hike Set" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADqDXt2UcDEGJAgYPYasMjEV9h45PixXq8wSbxOW9K7Reza7kXHVaf0uRfOasVRGPtK-70PbX2eqlVoAbuI9wYb6rX9N1tmmYq_IL0wsrJ8i5JLmanuj8dHbA8vV_Prti5z5WIybrYMGSJmkwtx5AWg5l8m_AikC0xggq9c3WqudhBC61UOWF4FpXRyUYaI4kDifja9UPjZOd8B05_40DLkL1mqp3EMsb4dGTHwZDth52zHpbPWklAYfktJ79T4eal3ZFLPVZgNbCi"/>
+<button class="absolute top-3 right-3 p-2 bg-white/90 dark:bg-gray-900/90 rounded-full shadow-sm">
+<span class="material-icons-outlined text-sm">favorite_border</span>
+</button>
+</div>
+<h3 class="font-bold text-gray-800 dark:text-white">Tiny Trekker Fleece</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Toddler • Recycled Wool</p>
+<p class="mt-1 font-bold text-primary dark:text-accent">€45.00</p>
+</div>
+</div>
+</section>
+<section class="py-16 px-6 bg-primary/5 dark:bg-primary/10 mx-6 rounded-3xl">
+<div class="text-center max-w-sm mx-auto">
+<span class="text-accent font-bold uppercase tracking-widest text-xs">Since 2012</span>
+<h2 class="text-3xl font-bold mt-2 mb-4 text-primary dark:text-white">Built for Tomorrow</h2>
+<p class="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+                    Rooted in the rugged Irish landscapes, we craft gear that respects nature. Our mission is to protect the playgrounds our children explore today, ensuring they remain wild for generations to come.
+                </p>
+<div class="grid grid-cols-2 gap-4 text-left">
+<div class="p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm">
+<span class="material-icons-outlined text-primary dark:text-accent mb-2">eco</span>
+<h4 class="font-bold text-sm dark:text-white">Sustainable</h4>
+<p class="text-xs text-gray-500">100% Recycled Fibers</p>
+</div>
+<div class="p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm">
+<span class="material-icons-outlined text-primary dark:text-accent mb-2">local_shipping</span>
+<h4 class="font-bold text-sm dark:text-white">Local Craft</h4>
+<p class="text-xs text-gray-500">Designed in Wicklow</p>
+</div>
+</div>
+<button class="mt-8 font-bold text-primary dark:text-white border-b-2 border-primary/20 hover:border-primary transition-all pb-1">Read Our Heritage</button>
+</div>
+</section>
+<section class="py-16 px-6">
+<div class="bg-gray-900 rounded-3xl p-8 relative overflow-hidden shadow-2xl">
+<div class="absolute top-0 right-0 w-32 h-32 bg-accent/20 rounded-full -mr-16 -mt-16 blur-3xl"></div>
+<div class="relative z-10">
+<div class="flex items-center gap-3 mb-4">
+<div class="p-2 bg-accent rounded-xl">
+<span class="material-icons-outlined text-white">map</span>
+</div>
+<h2 class="text-2xl font-bold text-white">Trail Finder</h2>
+</div>
+<p class="text-gray-300 text-sm mb-6">Find family-friendly walks near you. Selected for safety, accessibility, and fun.</p>
+<div class="space-y-3">
+<div class="relative">
+<span class="absolute left-4 top-1/2 -translate-y-1/2 material-icons-outlined text-gray-400">location_on</span>
+<input class="w-full bg-white/10 border-white/20 text-white rounded-full py-4 pl-12 pr-6 focus:ring-accent focus:border-accent placeholder:text-gray-500" placeholder="Enter County or Town..." type="text"/>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 bg-white/10 hover:bg-white/20 text-white py-3 rounded-full text-sm font-medium transition-colors border border-white/10">Stroller Access</button>
+<button class="flex-1 bg-accent text-white py-3 rounded-full text-sm font-bold transition-transform active:scale-95">Find Trails</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 px-6">
+<h2 class="text-2xl font-bold text-primary dark:text-white mb-6">#AllRoadsFamilies</h2>
+<div class="grid grid-cols-2 gap-3">
+<div class="aspect-square rounded-2xl overflow-hidden">
+<img alt="Family hiking" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-MHVZkKAhmXIr94SbNLwK9Wo8qR2VbHYq9O0DfCu5ZN5788iho9FFJ-os9Z-eEs2NgY44WKONTsyAZ7HKW0oaf2Kl5EYngJFWWTfNk-owO8nJnZsH05-X1IB78RFD_yemzWMm_ozO_kpbN7_zZz1ALj9D46YGKsEUjMpJW87nRsLWrxbltspqREDJr8ug0_dgwxpc52JGb9q70QudyGkfZ30iaIblNI2w1Jx4f2LaUYqGRk66PiTbSshMHf3gJpON58ISrbCPY1ox"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden">
+<img alt="Kids in nature" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCD4sbeL2TzEQb6MhedRNq_Pn9u569AD9kPND3P--BYvIVBE6w8bpHCpJDnlwUliESlWBRmrNME28HhQLUiEFo0Vpii0nkvTn1CVpy2P73F4RfTiqX5lysRPKy9xPL8P36SiM5CXxgIVsRQa4xtA8iaftzwhis1jUUD3wMyF4QLh9kgK8CL1iuhoaVd0V2niV_HTDHHwXHmTnVO-w4xQxsaP-tCcBDRJYPb77M78QS8Z0c2novyzhwzG9dBqplwuNCqLu5nHTyHaxnU"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden">
+<img alt="Mountain landscape" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuQd6O1Fu8srOOYj56clQbzYEHbSY5ieAmI_iElqR2nPJ3hSExCccIh0ZeKnqyjOCausYyZUNmoCLhlG6cpj4BH4KdnT25AO0pTh75zjHHsC5XZofYhbTm7AECwwhrkAOfPWupKK8LYOdqLyh5xtWYMCnlnEAcWLrhd3gHlt8k8E0jmHoioEJdh3c3B7RIQW09k7ScvW_4AvN0DnLyeNFTQ03zHK8f5-EF8qqVTxZgRlMS7fKbhsDs0-j9b__XiCMb-LbZibwEYzC7"/>
+</div>
+<div class="aspect-square rounded-2xl overflow-hidden flex items-center justify-center bg-primary text-white text-center p-4">
+<div>
+<p class="font-bold text-lg">Join the Club</p>
+<p class="text-[10px] uppercase tracking-widest mt-1 opacity-75">Share your story</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 px-6 bg-white dark:bg-gray-900">
+<div class="text-center">
+<h3 class="text-2xl font-bold mb-2 text-primary dark:text-white">Adventure in your inbox</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm mb-8">Sign up for exclusive family guides and early access to new collections.</p>
+<form class="flex flex-col gap-3">
+<input class="w-full bg-gray-50 dark:bg-gray-800 border-gray-200 dark:border-gray-700 rounded-full py-4 px-6 focus:ring-primary focus:border-primary" placeholder="Your email address" type="email"/>
+<button class="w-full bg-primary text-white py-4 rounded-full font-bold shadow-lg shadow-primary/20">Subscribe Now</button>
+</form>
+</div>
+</section>
+</main>
+<footer class="bg-gray-50 dark:bg-gray-950 px-6 py-12 border-t border-gray-100 dark:border-gray-900">
+<div class="max-w-md mx-auto">
+<div class="grid grid-cols-2 gap-8 mb-12">
+<div>
+<h4 class="font-bold text-primary dark:text-white mb-4">Shop</h4>
+<ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+<li><a class="hover:text-primary" href="#">Adults</a></li>
+<li><a class="hover:text-primary" href="#">Kids &amp; Toddlers</a></li>
+<li><a class="hover:text-primary" href="#">Accessories</a></li>
+<li><a class="hover:text-primary" href="#">New Arrivals</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-primary dark:text-white mb-4">Help</h4>
+<ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+<li><a class="hover:text-primary" href="#">Contact Us</a></li>
+<li><a class="hover:text-primary" href="#">Returns</a></li>
+<li><a class="hover:text-primary" href="#">Size Guide</a></li>
+<li><a class="hover:text-primary" href="#">Sustainability</a></li>
+</ul>
+</div>
+</div>
+<div class="flex justify-between items-center pt-8 border-t border-gray-200 dark:border-gray-800">
+<div class="text-xl font-bold text-primary dark:text-white uppercase tracking-tighter">AllRoads</div>
+<div class="flex gap-4">
+<div class="w-8 h-8 rounded-full bg-primary/10 dark:bg-white/10 flex items-center justify-center">
+<span class="material-icons-outlined text-sm text-primary dark:text-white">facebook</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-primary/10 dark:bg-white/10 flex items-center justify-center">
+<span class="material-icons-outlined text-sm text-primary dark:text-white">camera_alt</span>
+</div>
+</div>
+</div>
+<p class="mt-8 text-[10px] text-gray-400 text-center">© 2024 AllRoads Apparel. Crafted with love in Ireland.</p>
+</div>
+</footer>
+<nav class="fixed bottom-0 left-0 right-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg border-t border-gray-100 dark:border-gray-800 px-6 py-3 flex justify-between items-center z-50">
+<button class="flex flex-col items-center gap-1 text-primary dark:text-accent">
+<span class="material-icons-outlined">home</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">Home</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500">
+<span class="material-icons-outlined">search</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">Search</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500">
+<span class="material-icons-outlined">favorite_border</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">Saved</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-gray-400 dark:text-gray-500">
+<span class="material-icons-outlined">person_outline</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">Profile</span>
+</button>
+</nav>
+<script>
+        // Simple dark mode toggle logic if needed in the future
+        // For now using system/manual classes as per instructions
+    </script>
+
+</body></html>
