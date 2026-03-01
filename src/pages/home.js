@@ -15,7 +15,6 @@ export function render() {
         <div class="hero__grain"></div>
       </div>
       <div class="hero__content">
-        <span class="hero__badge">County Wicklow, Ireland</span>
         <h1 class="hero__title">Every Road<br/>Leads to<br/><em>Greatness</em></h1>
         <p class="hero__subtitle">Family hiking adventures, premium outdoor apparel, and trail guides — rooted in the wild heart of Wicklow.</p>
         <div class="hero__actions">
