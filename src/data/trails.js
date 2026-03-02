@@ -178,8 +178,8 @@ export const trails = [
         distance: '5.5 km',
         duration: '1.5 hrs',
         elevation: '210m',
-        img: '/images/hiking-family.png', // placeholder — replace with Bray Head coastal photo
-        imgAlt: 'Walkers on the Bray Head trail with coastal views',
+        img: '/images/bray-head-loop.jpeg',
+        imgAlt: 'The coastal cliff path on the Bray Head Loop with the Irish Sea beyond',
         badges: [
             { text: 'Moderate', cls: 'trail-card__badge--difficulty' },
             { text: 'Family Friendly', cls: 'trail-card__badge--family' },
@@ -219,8 +219,8 @@ export const trails = [
         distance: '7 km',
         duration: '2.5 hrs',
         elevation: '275m',
-        img: '/images/wicklow-way-signpost.png', // placeholder — replace with Sugarloaf peak photo
-        imgAlt: 'The distinctive conical peak of the Great Sugarloaf, Co. Wicklow',
+        img: '/images/great-sugar-loaf.jpg',
+        imgAlt: 'Hikers approaching the distinctive conical peak of the Great Sugarloaf, Co. Wicklow',
         badges: [
             { text: 'Moderate', cls: 'trail-card__badge--difficulty' },
             { text: 'Summit Walk', cls: 'trail-card__badge--family' },
@@ -301,8 +301,8 @@ export const trails = [
         distance: '7 km',
         duration: '1.5 hrs',
         elevation: '30m',
-        img: '/images/devils-glen.png', // placeholder — replace with Avoca valley/river photo
-        imgAlt: 'The wooded valley of Avoca with the river below',
+        img: '/images/vale-of-avoca.jpg',
+        imgAlt: 'The wooded Vale of Avoca with the river winding through the valley',
         badges: [
             { text: 'Easy', cls: 'trail-card__badge--easy' },
             { text: 'Stroller Access', cls: 'trail-card__badge--family' },
