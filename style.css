@@ -14,6 +14,7 @@
   --sage: #6a8f6e;
   --lichen: #9ab89d;
   --sage-light: #dceadd;
+  --nav-h: 72px;
   --ochre: #c9944a;
   --ochre-warm: #e8a94d;
   --peat: #7c5e4a;
@@ -1088,6 +1089,14 @@ button {
   transform: translateY(0);
 }
 
+/* Always show quick-add on touch devices (no hover available) */
+@media (hover: none) and (pointer: coarse) {
+  .product-card__quickadd {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .product-card__quickadd:hover {
   background: var(--ochre-warm);
   color: var(--forest-deep);
@@ -1683,6 +1692,24 @@ button {
     padding: 0 var(--space-sm);
   }
 
+  /* Trail filters: horizontal scroll on mobile so buttons don't wrap */
+  .trail-search__filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+  }
+
+  .trail-search__filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .trail-filter {
+    flex-shrink: 0;
+  }
+
   .parallax-banner {
     height: 50vh;
   }
@@ -1692,6 +1719,21 @@ button {
   .shop__grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.75rem;
+  }
+
+  /* Trail preview: single column on phones so images aren't tiny */
+  .trail-grid--preview {
+    grid-template-columns: 1fr;
+  }
+
+  /* Trail cards: tighter padding on small screens */
+  .trail-card__body {
+    padding: var(--space-sm);
+  }
+
+  /* Wider aspect ratio on single-column trail cards so they don't get too tall */
+  .trail-card__img-wrap {
+    aspect-ratio: 16 / 9;
   }
 
   .hero__actions {
@@ -1704,12 +1746,35 @@ button {
     width: 100%;
   }
 
+  /* Hero stats: smaller on very narrow screens */
+  .hero__stat-num {
+    font-size: 1.4rem;
+  }
+
+  .hero__stat-label {
+    font-size: 0.65rem;
+  }
+
   .footer__cols {
     flex-wrap: wrap;
   }
 
   .nav__inner {
     padding: 0.75rem 1rem;
+  }
+
+  /* Page hero: slightly more compact on small phones */
+  .page-hero {
+    min-height: 210px;
+    padding-top: 60px;
+  }
+
+  .page-hero__title {
+    font-size: 1.6rem;
+  }
+
+  .page-hero__desc {
+    font-size: 0.95rem;
   }
 }
 
@@ -3535,5 +3600,28 @@ button {
 
   .trail-detail__map iframe {
     height: 220px;
+  }
+}
+
+/* ── Extra-small phones (≤375px) ── */
+@media (max-width: 375px) {
+  .trail-grid--preview {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__stats {
+    gap: 0.5rem;
+  }
+
+  .hero__stat-divider {
+    display: none;
+  }
+
+  .trail-detail__meta {
+    gap: 0.75rem;
+  }
+
+  .trail-detail__stat-lbl {
+    display: none;
   }
 }
